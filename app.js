@@ -17,7 +17,7 @@
 'use strict';
 
 var express = require('express'),
-    tradeoffAnalyticsConfig = require('./tradeoff-analytics-config.js');
+    tradeoffAnalyticsConfig = require('./tradeoff-analytics-config');
 
 var app = express();
 app.use('/',express.static(__dirname + '/public'));
