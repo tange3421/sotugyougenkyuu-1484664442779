@@ -24,8 +24,8 @@ app.use('/',express.static(__dirname + '/public'));
 
 // For local development, copy your service instance credentials here, otherwise you may ommit this parameter
 var serviceCredentials = {
-  username: '<username>',
-  password: '<password>'
+  username: '506c30ff-d733-4b2d-8a01-705398091cba',
+  password: 'fS6fQNRAZSDR'
 }
 // When running on Bluemix, serviceCredentials will be overriden by the credentials obtained from VCAP_SERVICES
 tradeoffAnalyticsConfig.setupToken(app, serviceCredentials); 
